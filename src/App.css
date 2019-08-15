@@ -22,14 +22,14 @@
   font-family: sans-serif;
 }
 
-.avatar-img {
-  height: 200px;
-  padding: 1em;
+.profile-img {
+  height: 350px;
+  padding: 2em;
 }
 
 .home-banner-text {
   background-color: black;
-  opacity: .8;
+  opacity: 1;
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -108,22 +108,18 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+
   padding: 0.2px;
 }
 
-.skills {
-  width: 500px;
-  margin: 60px auto;
-  color: white;
-}
 
 .skills h3 {
   font-size: 20px;
   font-weight: bold;
   color: white;
   text-align: left;
+  padding: 0.2px;
 
 }
 
-.skills li {
-  margin: 20px 0;
+.skills {
+  padding: 4em;
 }
 
 .social-links {
@@ -142,28 +138,28 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+
 
 .ios {
   width: 70%;
-  animation: ios 2s;
+  animation: ios 3s;
 }
 
 .java {
   width: 60%;
-  animation: ios 2s;
+  animation: ios 3s;
 }
 .javascript {
   width: 20%;
-  animation: ios 2s;
+  animation: ios 3s;
 }
 .sql {
   width: 60%;
-  animation: ios 2s;
+  animation: ios 3s;
 }
 .html {
   width: 30%;
-  animation: ios 2s;
+  animation: ios 3s;
 }
 .python {
   width: 20%;
-  animation: ios 2s;
+  animation: ios 3s;
 }
 
 /* JavaScript */
