@@ -1,9 +1,33 @@
-.avatar-img {
-  height: 200px;
-  padding: 0.5em;
+.about-me-banner {
+  background-color: white;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
 }
 
-.banner-text {
+.about-me-banner h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 1em;
+}
+
+.about-me-banner p {
+  color: black;
+  font-size: 20px;
+  padding: 0.2em;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+.avatar-img {
+  height: 200px;
+  padding: 1em;
+}
+
+.home-banner-text {
   background-color: black;
   opacity: .8;
   width: 75%;
@@ -11,69 +35,23 @@
   border-radius: 10px;
 }
 
-.banner-text h1 {
+.home-banner-text h1 {
   font-size: 30px;
   font-weight: bold;
   color: white;
 }
 
-.banner-text hr {
+.home-banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
   padding: 0.5em;
 }
 
-.banner-text p {
+.home-banner-text p {
   color: white;
   font-size: 20px;
-  padding: 0.2em;
-}
-
-.header-color {
-  background: #CC95C0;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
-.home-grid {
-  background: #CC95C0;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  text-align: center;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-}
-
-.set-skills i {
-  color: white;
-  padding: 0.2px;
-}
-
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 20%;
-  margin: auto;
-}
-
-.social-links i {
-  color: white;
-  padding: 0.2px;
-}
-
-.skills {
-  width: 500px;
-  margin: 60px auto;
-  color: white;
-}
-
-.skills li {
-  margin: 20px 0;
+  padding: 0.6em;
 }
 
 .bar {
@@ -95,6 +73,72 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+
   float: left;
   background: #f5d364;
 }
+
+.header-color {
+  background: #CC95C0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.home-grid {
+  background: #CC95C0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.contact-grid {
+  background: #CC95C0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: left;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.set-skills i {
+  color: white;
+  padding: 0.2px;
+}
+
+.skills {
+  width: 500px;
+  margin: 60px auto;
+  color: white;
+}
+
+.skills h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+
+}
+
+.skills li {
+  margin: 20px 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  padding: 0.2px;
+}
+
+/* Skills Bar */
 
 .ios {
   width: 70%;
@@ -121,6 +165,9 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+
   width: 20%;
   animation: ios 2s;
 }
+
+/* JavaScript */
+
 @keyframes ios {
   0%{
     width: 0%;
@@ -170,11 +217,4 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+
   100%{
     width: 20%;
   }
-}
-.skills h3 {
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  text-align: left;
-
 }

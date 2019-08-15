@@ -8,13 +8,13 @@ class Home extends Component {
       <div style = {{width: '100%', margin: 'auto'}}>
         <Grid className = "home-grid">
           <Cell col={12}>
-            <div className= "banner-text">
+            <div className= "home-banner-text">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy-n737Z3hjt1507Nhr6e1RR7oPtc9pIzej5h7NMJJm_c3Dag"
               alt="avatar"
               className="avatar-img"
               />
-              <h1> Hi there, I'm Silvana Garcia </h1>
+              <h1> Hi there, I'm Silvana Garcia</h1>
               <hr></hr>
               <p> 21 | Computer Science & Neuroscience student | Colombian </p>
               <br></br>
@@ -26,19 +26,19 @@ class Home extends Component {
                         <i class=" massive mobile alternate icon"></i>
                         <br></br>
                         <br></br>
-                        <p> Experience with Swift and iOS development.</p>
+                        <p> I'm comfortable working with Swift and iOS development. Currently enhancing my skills with Swift UI! </p>
                       </div>
                       <div class="column">
                         <i class="massive desktop icon"></i>
                         <br></br>
                         <br></br>
-                        <p> Experience with API services and JSONS.</p>
+                        <p> I've had a fair amount of experience with database servers and feel very comfortable working with them and with MySQL.  </p>
                       </div>
                       <div class="column">
                         <i class="massive server cap icon"></i>
                         <br></br>
                         <br></br>
-                        <p> Experience with database servers</p>
+                        <p> I'm comfortable parsing JSON formmated services for a mobile application. </p>
                       </div>
                       </div>
                       <div class = "row">
@@ -46,19 +46,19 @@ class Home extends Component {
                         <i class="massive graduation cap icon"></i>
                         <br></br>
                         <br></br>
-                        <p> Graduating in December 2019. Looking for new job opportunities for 2020!</p>
+                        <p> I'm graduating in December 2019. Looking for new job opportunities for 2020. </p>
                       </div>
                       <div class="column">
                         <i class="massive globe icon"></i>
                         <br></br>
                         <br></br>
-                        <p> Fluent in Spanish (Native) and English. Intermediate in German. </p>
+                        <p> I'm fluent in Spanish (Native) and English. Ich spreche auch ein bisschen Deutsch! </p>
                       </div>
                       <div class="column">
                         <i class="massive child icon"></i>
                         <br></br>
                         <br></br>
-                        <p> Always facing every new challenge with the best attitude </p>
+                        <p> I know I still have a lot to learn but I always try to face every new challenge with the best attitude! </p>
                       </div>
                     </div>
                   </div>
@@ -66,7 +66,7 @@ class Home extends Component {
               <div>
               </div>
               <div class = "skills">
-                <h1> Skills: </h1>
+                <h1> A very brief summary  my skills: </h1>
                   <ul>
                     <h3> Swift/iOS Dev </h3><span class="bar"><span class="ios"></span></span>
                     <h3> JavaScript </h3><span class = "bar"><span class= "javascript"></span></span>
