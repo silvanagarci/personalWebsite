@@ -22,6 +22,36 @@
   font-family: sans-serif;
 }
 
+.bar {
+  background: #353b48;
+  display: block;
+  height: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #f2f7f7;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bar span {
+  height: 2px;
+  float: left;
+}
+
+.contact-grid {
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: left;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
 .email-form {
   padding: 2em;
 }
@@ -39,6 +69,10 @@
   font-size: 25px;
   padding-top: 1em;
   font-weight: bold;
+}
+
+.form-label {
+  text-align: left;
 }
 
 .home-banner-text {
@@ -68,50 +102,18 @@
   padding: 0.6em;
 }
 
-.bar {
-  background: #353b48;
-  display: block;
-  height: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 3px;
-  overflow: hidden;
-  box-shadow: 0 0 10px #ffde70;
-  text-align: center;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.bar span {
-  height: 2px;
-  float: left;
-  background: #f5d364;
-}
-
-.contact-grid {
-  background: #CC95C0;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: left;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-}
-
-.form-label {
-  text-align: left;
-}
 .header-color {
-  background: #FEAC5E;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .home-grid {
-  background: #FEAC5E;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align: center;
   left: 0;
   width: 100%;
@@ -128,7 +130,6 @@
   color: white;
   padding: 0.2px;
 }
-
 
 .skills h3 {
   font-size: 20px;
@@ -160,27 +161,33 @@
 .ios {
   width: 70%;
   animation: ios 3s;
+  background: #d8ebed;
 }
 
 .java {
   width: 60%;
-  animation: ios 3s;
+  animation: java 3s;
+  background: #f20a0a;
 }
 .javascript {
   width: 20%;
-  animation: ios 3s;
+  animation: javascript 3s;
+  background: #eb8634;
 }
 .sql {
   width: 60%;
-  animation: ios 3s;
+  animation: sql 3s;
+  background: #49ab4d;
 }
 .html {
   width: 30%;
-  animation: ios 3s;
+  animation: html 3s;
+  background: #451f7a;
 }
 .python {
   width: 20%;
-  animation: ios 3s;
+  animation: python 3s;
+  background: #f2c530;
 }
 
 /* JavaScript */
