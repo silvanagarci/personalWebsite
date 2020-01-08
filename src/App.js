@@ -4,13 +4,13 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main  from './components/main';
 import { Link } from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css';
-import ProfilePic from './components/images/silvana-pic.png';
+import BackgroundPic from './components/images/background.jpg';
 
 function App() {
   return (
     <div>
-    <Layout >
-        <Header className = "header-color" title={<span><span style={{ color: '#ddd' }}> </span><strong></strong></span>}>
+    <Layout  style={{backgroundImage: `url(${require('./components/images/back.png')})` }}>
+        <Header transparent style={{color: 'white'}}>
             <Navigation>
                 <Link to="/contact">Contact</Link>
             </Navigation>
@@ -19,7 +19,6 @@ function App() {
           <div className = "page-content" />
           <Main />
         </Content>
-
     </Layout>
 </div>
   );

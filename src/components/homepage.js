@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import { Icons } from 'semantic-ui-react';
 import ProfilePic from './images/silvana.jpg';
+import BackgroundPic from './images/background.jpg';
 
 class Home extends Component {
   render() {
     return(
-      <div style = {{width: '100%', margin: 'auto'}}>
+      <div>
         <Grid className = "home-grid">
           <Cell col={12}>
             <div className= "home-banner-text">
@@ -28,13 +29,13 @@ class Home extends Component {
                         <i class=" massive graduation icon"></i>
                         <br></br>
                         <br></br>
-                        <p>I graduated on 12/19 from The Ohio State University with a B.S in Computer & Information Science and Neuroscience. </p>
+                        <p>I graduated on Dec 2019 from The Ohio State University with a B.S in Computer & Information Science and Neuroscience. </p>
                       </div>
                       <div class="column">
                         <i class="massive mobile alternate icon"></i>
                         <br></br>
                         <br></br>
-                        <p> I'm very passionate about mobile development, particularly iOS. Have collaborated in the development of several iOS Apps. </p>
+                        <p> I'm very passionate about mobile development, particularly iOS. I have collaborated in the development of several iOS Apps. </p>
                       </div>
                       <div class="column">
                         <i class="massive globe icon"></i>
@@ -60,7 +61,7 @@ class Home extends Component {
                         <i class="massive child icon"></i>
                         <br></br>
                         <br></br>
-                        <p> Other than programming, I enjoy running, reading and dancing the most!</p>
+                        <p> Other than programming, I mostly enjoy running, reading, and dancing!</p>
                       </div>
                     </div>
                   </div>
