@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import { Icons } from 'semantic-ui-react';
-import ProfilePic from './images/silvana-pic.png';
+import ProfilePic from './images/silvana.jpg';
 
 class Home extends Component {
   render() {
@@ -15,39 +15,26 @@ class Home extends Component {
               alt="ProfilePic"
               className="profile-img"
               />
-              <h1> Hi there, I'm Silvana Garcia. Welcome to my profile!</h1>
+              <h1> Hi there, I'm Silvana. Welcome to my profile!</h1>
               <hr></hr>
-              <p> 21 | Computer Science & Neuroscience student | Colombian </p>
+              <p> 22 | Computer Science & Neuroscience recent grad | Colombian </p>
+              <p> Currently looking for a full-time position.</p>
               <br></br>
               <h1> More about me: </h1>
               <div class = "set-skills">
                 <div class="ui three column grid">
                     <div class = "row">
                       <div class="column">
-                        <i class=" massive mobile alternate icon"></i>
+                        <i class=" massive graduation icon"></i>
                         <br></br>
                         <br></br>
-                        <p> I'm comfortable working with Swift and iOS development. Currently learning Swift UI! </p>
+                        <p>I graduated on 12/19 from The Ohio State University with a B.S in Computer & Information Science and Neuroscience. </p>
                       </div>
                       <div class="column">
-                        <i class="massive desktop icon"></i>
+                        <i class="massive mobile alternate icon"></i>
                         <br></br>
                         <br></br>
-                        <p> I've had a fair amount of experience with database servers and feel very comfortable working with them and with MySQL.  </p>
-                      </div>
-                      <div class="column">
-                        <i class="massive server cap icon"></i>
-                        <br></br>
-                        <br></br>
-                        <p> I'm comfortable parsing JSON formmated services for a mobile application. </p>
-                      </div>
-                      </div>
-                      <div class = "row">
-                      <div class="column">
-                        <i class="massive graduation cap icon"></i>
-                        <br></br>
-                        <br></br>
-                        <p> I'm graduating in December 2019. Looking for new job opportunities for 2020. </p>
+                        <p> I'm very passionate about mobile development, particularly iOS. Have collaborated in the development of several iOS Apps. </p>
                       </div>
                       <div class="column">
                         <i class="massive globe icon"></i>
@@ -55,11 +42,25 @@ class Home extends Component {
                         <br></br>
                         <p> I'm fluent in Spanish(native) and English. Ich spreche auch ein bisschen Deutsch! </p>
                       </div>
+                  </div>
+                  <div class = "row">
+                      <div class="column">
+                        <i class="massive server icon"></i>
+                        <br></br>
+                        <br></br>
+                        <p> I've had a fair amount of experience with database servers and feel very comfortable working with them and with SQL.  </p>
+                      </div>
+                      <div class="column">
+                        <i class="massive file code outline icon"></i>
+                        <br></br>
+                        <br></br>
+                        <p> I'm comfortable parsing JSON formmated services and utlizing RESTful APIs. </p>
+                      </div>
                       <div class="column">
                         <i class="massive child icon"></i>
                         <br></br>
                         <br></br>
-                        <p> I know I still have a lot left to learn but I always try to face every new challenge with the best attitude! </p>
+                        <p> Other than programming, I enjoy running, reading and dancing the most!</p>
                       </div>
                     </div>
                   </div>
