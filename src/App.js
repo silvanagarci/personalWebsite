@@ -12,6 +12,7 @@ function App() {
     <Layout  style={{backgroundImage: `url(${require('./components/images/back.png')})` }}>
         <Header transparent style={{color: 'white'}}>
             <Navigation>
+                <Link to="/">Home</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
