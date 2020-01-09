@@ -23,46 +23,42 @@ class Home extends Component {
               <br></br>
               <h1> More about me: </h1>
               <div class = "set-skills">
-                <div class="ui three column grid">
-                    <div class = "row">
+                <div class="ui one column grid">
                       <div class="column">
-                        <i class=" massive graduation icon"></i>
+                        <i class=" huge graduation icon"></i>
                         <br></br>
                         <br></br>
-                        <p>I graduated on Dec 2019 from The Ohio State University with a B.S in Computer & Information Science and Neuroscience. </p>
+                        <p class = "paragraph">I graduated on Dec 2019 from The Ohio State University with a B.S in Computer & Information Science and Neuroscience. </p>
                       </div>
                       <div class="column">
-                        <i class="massive mobile alternate icon"></i>
+                        <i class="huge mobile alternate icon"></i>
                         <br></br>
                         <br></br>
                         <p> I'm very passionate about mobile development, particularly iOS. I have collaborated in the development of several iOS Apps. </p>
                       </div>
                       <div class="column">
-                        <i class="massive globe icon"></i>
+                        <i class="huge globe icon"></i>
                         <br></br>
                         <br></br>
                         <p> I'm fluent in Spanish(native) and English. Ich spreche auch ein bisschen Deutsch! </p>
                       </div>
-                  </div>
-                  <div class = "row">
                       <div class="column">
-                        <i class="massive server icon"></i>
+                        <i class="huge server icon"></i>
                         <br></br>
                         <br></br>
                         <p> I've had a fair amount of experience with database servers and feel very comfortable working with them and with SQL.  </p>
                       </div>
                       <div class="column">
-                        <i class="massive file code outline icon"></i>
+                        <i class="huge file code outline icon"></i>
                         <br></br>
                         <br></br>
                         <p> I'm comfortable parsing JSON formmated services and utlizing RESTful APIs. </p>
                       </div>
                       <div class="column">
-                        <i class="massive child icon"></i>
+                        <i class="huge child icon"></i>
                         <br></br>
                         <br></br>
                         <p> Other than programming, I mostly enjoy running, reading, and dancing!</p>
-                      </div>
                     </div>
                   </div>
                 </div>

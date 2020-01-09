@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c5173cd4.chunk.css",
+    "main.js": "/static/js/main.9d624590.chunk.js",
+    "main.js.map": "/static/js/main.9d624590.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.4e186e9b.chunk.css": "/static/css/2.4e186e9b.chunk.css",
+    "static/js/2.cb0d914b.chunk.js": "/static/js/2.cb0d914b.chunk.js",
+    "static/js/2.cb0d914b.chunk.js.map": "/static/js/2.cb0d914b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5db6129e71d0e8dab57b92f2776167b7.js": "/precache-manifest.5db6129e71d0e8dab57b92f2776167b7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.4e186e9b.chunk.css.map": "/static/css/2.4e186e9b.chunk.css.map",
+    "static/css/main.c5173cd4.chunk.css.map": "/static/css/main.c5173cd4.chunk.css.map",
+    "static/media/back.png": "/static/media/back.f0b61724.png",
+    "static/media/background.jpg": "/static/media/background.9e079cb7.jpg",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/silvana.jpg": "/static/media/silvana.50bae1e5.jpg"
+  }
+}
