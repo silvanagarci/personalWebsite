@@ -52,7 +52,7 @@ class Home extends Component {
                         <i class="huge file code outline icon"></i>
                         <br></br>
                         <br></br>
-                        <p> I'm comfortable parsing JSON formmated services and utlizing RESTful APIs. </p>
+                        <p> I'm comfortable parsing JSON formmated services and utilizing RESTful APIs. </p>
                       </div>
                       <div class="column">
                         <i class="huge child icon"></i>
