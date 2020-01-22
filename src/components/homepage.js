@@ -34,7 +34,7 @@ class Home extends Component {
                         <i class="huge mobile alternate icon"></i>
                         <br></br>
                         <br></br>
-                        <p> I'm very passionate about mobile development, particularly iOS. I have collaborated in the development of several iOS Apps. </p>
+                        <p> I'm open to working in all kinds of CS fields! I enjoy constantly learning about new technologies. </p>
                       </div>
                       <div class="column">
                         <i class="huge globe icon"></i>
@@ -65,13 +65,12 @@ class Home extends Component {
               <div>
               </div>
               <div class = "skills">
-                <h1> A very brief summary  my skills: </h1>
+                <h1> A (very approximate) summary of my skills: </h1>
                   <ul>
                     <h3> Swift/iOS Dev </h3><span class="bar"><span class="ios"></span></span>
-                    <h3> JavaScript </h3><span class = "bar"><span class= "javascript"></span></span>
+                    <h3> Python </h3><span class = "bar"><span class= "python"></span></span>
                     <h3> Java </h3><span class = "bar"><span class= "java"></span></span>
                     <h3> MySQL </h3><span class = "bar"><span class= "sql"></span></span>
-                    <h3> Python </h3><span class = "bar"><span class= "python"></span></span>
                     <h3> HTML/CSS </h3><span class = "bar"><span class= "html"></span></span>
                   </ul>
               </div>

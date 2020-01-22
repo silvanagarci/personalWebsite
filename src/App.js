@@ -4,7 +4,6 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main  from './components/main';
 import { Link } from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css';
-import BackgroundPic from './components/images/background.jpg';
 
 function App() {
   return (
